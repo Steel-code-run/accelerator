@@ -1,1 +1,0 @@
-(()=>{var __webpack_modules__={"../src/pages/main/main.js":()=>{eval("\n\n//# sourceURL=webpack:///../src/pages/main/main.js?")}},__webpack_exports__={};__webpack_modules__["../src/pages/main/main.js"]()})();
