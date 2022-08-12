@@ -8,7 +8,8 @@
     "build:development": "gulp -f gulp/FullRebuildDist.js",
     "build": "gulp -f gulp/FullRebuildDist.js",
     "localServer": "serve dist",
-    "dev": "concurrently --kill-others \"serve dist\" \"gulp -f gulp/WatchAndBuild.js\""
+    "dev": "concurrently --kill-others \"serve dist\" \"gulp -f gulp/WatchAndBuild.js\"",
+    "deploy": "npm run build:production && gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "babel-loader": "^8.2.5",
     "concurrently": "^7.2.0",
     "del": "^6.0.0",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-minify": "^3.1.0",

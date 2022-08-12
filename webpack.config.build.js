@@ -3,8 +3,8 @@ var path = require('path');
 module.exports = {
     mode: 'development',
     entry: {
-        main:"../src/pages/main/main.js",
-        index: "../src/pages/index/index.js" 
+        index: "../src/pages/index/index.js",
+        header: "../src/template/header/header.js",
         // second: "../src/pages/second/second.js" пример подгрузки след. страницы
     },
     module: {
