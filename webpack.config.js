@@ -3,6 +3,7 @@ var path = require('path');
 module.exports = {
   mode: 'development',
   entry: {
+    header: "../src/template/header/header.js"
     // second: "../src/pages/second/second.js" пример подгрузки след. страницы
   },
   module: {
