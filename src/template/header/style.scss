@@ -109,6 +109,7 @@
       margin-right: 50px;
     }
     &__popup{
+      z-index: 100;
       display: block;
       background: white;
       position: absolute;
